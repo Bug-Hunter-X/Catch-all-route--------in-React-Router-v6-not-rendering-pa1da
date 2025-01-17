@@ -1,0 +1,3 @@
+This repository demonstrates a common issue encountered when using catch-all routes ('/*') with React Router v6.  The issue stems from the order of routes defined within the Routes component.  While other routes function correctly, the catch-all route fails to render when an unmatched URL is accessed.
+
+The solution involves careful consideration of route order and potentially the use of an element instead of a component for the catch-all route to make sure that it always matches.
